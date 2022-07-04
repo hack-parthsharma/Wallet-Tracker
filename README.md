@@ -10,7 +10,7 @@ General information about setting up Wallet Tracker CLI locally
 ## Installation
 
 ```bash
-go get github.com/hack-parthsharma/wallet-tracker
+go get github.com/hack-parthsharma/Wallet-Tracker
 ```
 
 <!-- USAGE EXAMPLES -->
@@ -22,7 +22,7 @@ go get github.com/hack-parthsharma/wallet-tracker
 After you have install requirements , you can simply track the wallet via:
 
 ```shell
-   $ wallet-tracker tracker track --wallet 37oTUqiViE3YySs8xxAtKgTzQgoVuSVbse
+   $ Wallet-Tracker tracker track --wallet 37oTUqiViE3YySs8xxAtKgTzQgoVuSVbse
 ```
 
 ### Track Wallet with Network
@@ -30,7 +30,7 @@ After you have install requirements , you can simply track the wallet via:
 If you want to specify network ( you don't need that for now ) use this command:
 
 ```shell
-   $ wallet-tracker tracker track --wallet 37oTUqiViE3YySs8xxAtKgTzQgoVuSVbse --network BTC
+   $ Wallet-Tracker tracker track --wallet 37oTUqiViE3YySs8xxAtKgTzQgoVuSVbse --network BTC
 ```
 
 ### Get All Transactions
@@ -38,7 +38,7 @@ If you want to specify network ( you don't need that for now ) use this command:
 If you want to get all transactions from websocket use this command:
 
 ```shell
-   $ wallet-tracker tracker websocket --all
+   $ Wallet-Tracker tracker websocket --all
 ```
 
 ![Websocket](img/2022-06-23_20-05.png)
